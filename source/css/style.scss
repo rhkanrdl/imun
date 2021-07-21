@@ -502,10 +502,12 @@ body {
                                 font-size:14px;
                                 color:#fff;
                                 line-height:42px;
+                                font-weight:500;
                                 @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
 
                                 @media (min-width: $screen-size-pc) {
                                     line-height:52px;
+                                    font-size:18px;
                                 }
     
                             }
