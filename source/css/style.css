@@ -2219,8 +2219,8 @@ body div#content.sub section.sub-head div.container {
 
 @media (min-width: 1200px) {
   body div#content.sub section.sub-head div.container {
-    padding: 80px 0 0;
-    height: 380px;
+    padding: 90px 0 0;
+    height: 290px;
     text-align: left;
   }
 }
@@ -2237,23 +2237,6 @@ body div#content.sub section.sub-head div.container h3 {
   body div#content.sub section.sub-head div.container h3 {
     font-weight: 500;
     font-size: 52px;
-  }
-}
-
-body div#content.sub section.sub-head div.container h3 small {
-  display: none;
-  font-weight: 500;
-}
-
-@media (min-width: 1200px) {
-  body div#content.sub section.sub-head div.container h3 small {
-    display: block;
-    font-size: 18px;
-    margin: 20px 0;
-  }
-  body div#content.sub section.sub-head div.container h3 small span {
-    display: block;
-    margin: 0 0 4px;
   }
 }
 
@@ -2312,7 +2295,7 @@ body div#content.sub section.sub-head div.container div.navi {
     font-size: 18px;
     position: absolute;
     right: 0;
-    top: 200px;
+    top: 120px;
   }
 }
 

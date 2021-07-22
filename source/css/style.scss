@@ -894,8 +894,8 @@ body {
                     padding:60px 0 0;
 
                     @media (min-width: $screen-size-pc) {
-                        padding:80px 0 0;
-                        height:380px;
+                        padding:90px 0 0;
+                        height:290px;
                         text-align:left;
 
                     }
@@ -914,22 +914,6 @@ body {
                         }
                         
                         
-
-                        small {
-                            display:none;
-                            font-weight:500;
-
-                            @media (min-width: $screen-size-pc) {
-                                display:block;
-                                font-size:18px;
-                                margin:20px 0;
-                                
-                                span {
-                                    display:block;
-                                    margin:0 0 4px;
-                                }
-                            }
-                        }
                     }
 
                     ul.sub-nav {
@@ -990,7 +974,7 @@ body {
                             font-size:18px;
                             position:absolute;
                             right:0;
-                            top:200px;
+                            top:120px;
 
                         }
                     }
