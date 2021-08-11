@@ -888,6 +888,10 @@ body {
                     background:url(../images/mainImage01.png) no-repeat center / cover;
                 }
 
+                &.sub02 {
+                    background:url(../images/mainImage02.png) no-repeat center / cover;
+                }
+
                 &::before {
                     display:block;
                     content:"";
@@ -896,7 +900,7 @@ body {
                     right:0;
                     top:0;
                     bottom:0;
-                    background:rgba(0,0,0,.5);
+                    background:rgba(0,0,0,.6);
                 }
 
                 div.container {
@@ -1175,6 +1179,20 @@ body {
             
                                 }
 
+                            }
+                        }
+                    }
+
+                    article.location {
+                        div.map {
+                            
+                            border:1px solid #ccc;
+                            background:#F6F6F6;
+                            height:260px;
+
+                            @media (min-width: $screen-size-pc) {
+                                height:560px;
+        
                             }
                         }
                     }

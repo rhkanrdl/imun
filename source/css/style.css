@@ -2211,6 +2211,10 @@ body div#content.sub section.sub-head.sub01 {
   background: url(../images/mainImage01.png) no-repeat center/cover;
 }
 
+body div#content.sub section.sub-head.sub02 {
+  background: url(../images/mainImage02.png) no-repeat center/cover;
+}
+
 body div#content.sub section.sub-head::before {
   display: block;
   content: "";
@@ -2219,7 +2223,7 @@ body div#content.sub section.sub-head::before {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 body div#content.sub section.sub-head div.container {
@@ -2494,6 +2498,18 @@ body div#content.sub section.sub-content div.container article.intro dl dd {
     font-size: 20px;
     padding: 6px 0 30px 100px;
     margin: 0 0 30px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.location div.map {
+  border: 1px solid #ccc;
+  background: #F6F6F6;
+  height: 260px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.location div.map {
+    height: 560px;
   }
 }
 
