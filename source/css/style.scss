@@ -1197,6 +1197,30 @@ body {
                         }
                     }
 
+                    article.free {
+
+                        div.img {
+                            font-size:0;
+
+                            img {
+                                display:inline-block;
+                                width:calc((100% - 20px) / 3);
+                                margin-right:10px;
+
+                                @media (min-width: $screen-size-pc) {
+                                    width:calc((100% - 60px) / 3);
+                                    margin-right:30px;
+            
+                                }
+
+                                &:last-of-type {
+                                    margin:0;
+                                }
+
+                            }
+                        }
+                    }
+
 
 
 
