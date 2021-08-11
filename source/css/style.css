@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -2369,6 +2370,38 @@ body div#content.sub section.sub-content div.container h4.btitle small {
   }
 }
 
+body div#content.sub section.sub-content div.container div.btn-area {
+  clear: both;
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.btn-area {
+    padding: 60px 0 100px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.btn-area a {
+  display: inline-block;
+  background: #C63259;
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 30px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.btn-area a {
+    font-size: 26px;
+    line-height: 80px;
+    padding: 0 60px;
+  }
+}
+
 body div#content.sub section.sub-content div.container article.intro div.img {
   border: 1px solid #ccc;
   background: #F6F6F6;
@@ -2532,6 +2565,312 @@ body div#content.sub section.sub-content div.container article.free div.img img 
 
 body div#content.sub section.sub-content div.container article.free div.img img:last-of-type {
   margin: 0;
+}
+
+body div#content.sub section.sub-content div.container article.free h5 {
+  margin: 30px 0 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free h5 {
+    font-size: 24px;
+    margin: 5ㄴ0px 0 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free h5 span {
+  color: #C63259;
+}
+
+body div#content.sub section.sub-content div.container article.free p.text {
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free p.text {
+    margin: 0 0 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons {
+  font-size: 0;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free ul.icons {
+    margin: 0 0 60px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li {
+  position: relative;
+  padding: 20px 0 50px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free ul.icons li {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% / 4) * 3);
+    padding: 20px 0 97px;
+    min-height: 292px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li strong {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 44px;
+  background: #555555;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free ul.icons li strong {
+    line-height: 77px;
+    font-size: 24px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li p {
+  display: inline-block;
+  text-align: center;
+  word-break: keep-all;
+  margin: 0 0 10px;
+  font-size: 14px;
+  vertical-align: top;
+  width: calc(100% / 3);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free ul.icons li p {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li p i {
+  display: block;
+  font-size: 50px;
+  margin: 0 0 10px;
+  color: #ccc;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free ul.icons li p i {
+    font-size: 100px;
+    margin: 0 0 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li p span {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free ul.icons li:nth-child(2) {
+    width: calc(100% / 4);
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li:nth-child(2) strong {
+  background: #148CB9;
+}
+
+body div#content.sub section.sub-content div.container article.free ul.icons li:nth-child(2) p {
+  width: 100%;
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free div.spec {
+    padding: 40px;
+    display: block;
+    vertical-align: top;
+    width: calc(50% - 20px);
+    float: left;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec.left {
+  padding-top: 250px;
+  background: url(../images/main-kiosk01.png) no-repeat center 20px/80px auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free div.spec.left {
+    background-position: left 40px bottom 40px;
+    background-size: 130px auto;
+    padding-top: 40px;
+    padding-left: 250px;
+    margin-right: 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec.right {
+  padding-top: 220px;
+  background: url(../images/main-kiosk02.png) no-repeat center 20px/80px auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free div.spec.right {
+    background-position: left 40px bottom 40px;
+    background-size: 130px auto;
+    padding-top: 40px;
+    padding-left: 250px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec h6 {
+  font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
+  color: #148CB9;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.free div.spec h6 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 24px;
+    text-align: left;
+  }
+  body div#content.sub section.sub-content div.container article.free div.spec h6 span {
+    display: block;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec dl {
+  margin: 0;
+  padding: 0;
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec dl dt {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body div#content.sub section.sub-content div.container article.free div.spec dl dd {
+  margin: 0;
+  padding: 6px 0 16px;
+  word-break: keep-all;
+}
+
+body div#content.sub section.sub-content div.container article.ad div.img {
+  margin: 0 0 50px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.ad div.img {
+    margin: 0 0 70px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.ad div.img img {
+  width: 100%;
+  height: auto;
+}
+
+body div#content.sub section.sub-content div.container article.ad dl {
+  margin: 0;
+}
+
+body div#content.sub section.sub-content div.container article.ad dl dt {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 0 20px;
+  margin: 30px 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.ad dl dt {
+    float: left;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.ad dl dd {
+  margin: 0 0 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.ad dl dd {
+    margin: 0 0 50px 280px;
+    border-left: 1px solid #ccc;
+    padding: 0 0 0 60px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.ad dl dd strong {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.ad dl dd strong {
+    font-size: 24px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.ad dl dd p + strong {
+  margin-top: 30px;
+}
+
+body div#content.sub section.sub-content div.container article.sell div.img {
+  margin: 0 0 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.img {
+    margin: 0 0 50px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.img img {
+  width: 100%;
+  height: auto;
+}
+
+body div#content.sub section.sub-content div.container article.sell p.text {
+  word-break: keep-all;
+  text-align: center;
+  line-height: 1.6;
+  margin: 30px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell p.text {
+    font-size: 16px;
+    margin: 40px 0;
+  }
 }
 
 body div#content.sub section.sub-content div.container article.board-tools {
