@@ -1018,6 +1018,167 @@ body {
                         }
                     }
 
+                    h4.btitle {
+                        text-align:center;
+                        font-weight:800;
+                        color:#148CB9;
+                        font-size:20px;
+                        word-break:keep-all;
+
+                        @media (min-width: $screen-size-pc) {
+                            font-size:34px;
+                        }
+
+                        small {
+                            display:block;
+                            font-size:14px;
+                            font-weight:400;
+                            color:#222;
+                            margin-bottom:4px;
+
+                            @media (min-width: $screen-size-pc) {
+                                font-size:22px;
+                            }
+                        }
+                    }
+
+                    article.intro {
+                        
+                        div.img {
+                            border:1px solid #ccc;
+                            background:#F6F6F6;
+                            text-align:center;
+                            padding:30px;
+                            margin:0 0 30px;
+
+                            @media (min-width: $screen-size-pc) {
+                                padding: 50px;
+                                margin:0 0 50px;
+        
+                            }
+
+                            strong {
+                                display:block;
+                                font-weight:600;
+                                font-size:20px;
+                                margin:0 0 30px;
+                                color:#222;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:34px;
+                                    margin:0 0 50px;
+            
+                                }
+                            }
+
+                            p {
+                                margin:0 0 26px;
+                                font-size:16px;
+
+                                @media (min-width: $screen-size-pc) {
+                                    position:relative;
+                                    margin:0;
+                                    display:inline-block;
+                                    vertical-align:top;
+                                    margin:0 30px;
+                                    font-size:20px;
+            
+                                }
+                                
+                                &::after {
+                                    content:"";
+                                    display:block;
+                                    margin:20px auto;
+                                    width:10px;
+                                    height:10px;
+                                    background:#B8B8B8;
+                                    border-radius:50%;
+
+                                    @media (min-width: $screen-size-pc) {
+                                        margin:0;
+                                        position:absolute;
+                                        right:-35px;
+                                        top:90px;
+                
+                                    }
+                                }
+
+                                &:last-of-type {
+                                    &::after {
+                                        display:none;
+                                    }
+                                }
+
+                                i {
+                                    display:block;
+                                    background:#fff;
+                                    width:160px;
+                                    height:160px;
+                                    margin:0 auto 16px;
+                                    border-radius:50%;
+                                    font-size:70px;
+                                    padding-top:30px;
+                                    border-top:12px solid rgba(0,0,0,.1);
+                                    @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+
+                                    @media (min-width: $screen-size-pc) {
+                                        width:184px;
+                                        height:184px;
+                                        font-size:90px;
+                                        padding-top:36px;
+                                        margin-bottom:20px;
+                
+                                    }
+
+                                
+
+                                    &.bx-body {
+                                        color:#148CB9;
+                                    }
+
+                                    &.bx-cog {
+                                        color:#94B914;
+                                    }
+
+                                    &.bx-brain {
+                                        color:#C63259;
+                                    }
+                                }
+                            }
+                        }
+
+                        dl {
+                            dt {
+                                font-weight:600;
+                                font-size:16px;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:28px;
+                                    float:left;
+
+            
+                                }
+
+                            }
+
+                            dd {
+                                margin:6px 0 20px;
+                                padding:0 0 20px;
+                                border-bottom:1px solid #ccc;
+                                word-break:keep-all;
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:20px;
+                                    padding:6px 0 30px 100px;
+                                    margin:0 0 30px;
+                                    
+            
+                                }
+
+                            }
+                        }
+                    }
+
 
 
 
