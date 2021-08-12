@@ -2285,7 +2285,7 @@ body div#content.sub section.sub-head div.container ul.sub-nav {
     color: #fff;
   }
   body div#content.sub section.sub-head div.container ul.sub-nav li a.active {
-    color: #F3CD74;
+    color: #F4EE9C;
   }
   body div#content.sub section.sub-head div.container ul.sub-nav li a.active::after {
     content: "";
@@ -2296,7 +2296,7 @@ body div#content.sub section.sub-head div.container ul.sub-nav {
     bottom: 16px;
     width: 100%;
     height: 3px;
-    background: #F3CD74;
+    background: #F4EE9C;
   }
 }
 
@@ -2368,6 +2368,10 @@ body div#content.sub section.sub-content div.container h4.btitle small {
   body div#content.sub section.sub-content div.container h4.btitle small {
     font-size: 22px;
   }
+}
+
+body div#content.sub section.sub-content div.container h4.btitle.red {
+  color: #C63259;
 }
 
 body div#content.sub section.sub-content div.container div.btn-area {
@@ -2870,6 +2874,140 @@ body div#content.sub section.sub-content div.container article.sell p.text {
   body div#content.sub section.sub-content div.container article.sell p.text {
     font-size: 16px;
     margin: 40px 0;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why {
+    padding: 40px 40px 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why h5 {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why h5 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 28px;
+  }
+  body div#content.sub section.sub-content div.container article.sell div.why h5 span {
+    display: block;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why ul {
+    position: relative;
+    font-size: 0;
+    padding: 0 0 0 330px;
+  }
+  body div#content.sub section.sub-content div.container article.sell div.why ul::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 280px;
+    top: 0;
+    bottom: 40px;
+    width: 1px;
+    background: #ccc;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why ul li {
+  position: relative;
+  padding: 0 0 16px 34px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why ul li {
+    padding: 0 0 40px 72px;
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why ul li i {
+  position: absolute;
+  display: block;
+  width: 24px;
+  line-height: 24px;
+  left: 0;
+  top: 0;
+  font-style: normal;
+  background: #C63259;
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why ul li i {
+    font-size: 28px;
+    width: 56px;
+    line-height: 56px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why ul li strong {
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why ul li strong {
+    font-size: 24px;
+  }
+  body div#content.sub section.sub-content div.container article.sell div.why ul li strong span {
+    display: block;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sell div.why ul li p {
+  margin: 6px 0 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sell div.why ul li p {
+    font-size: 16px;
+    margin: 20px 0 0;
+  }
+  body div#content.sub section.sub-content div.container article.sell div.why ul li p span {
+    display: block;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.ready {
+  border: 1px solid #ccc;
+  background: #F6F6F6;
+  text-align: center;
+  padding: 100px 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.ready {
+    padding: 160px 0;
+    font-size: 28px;
   }
 }
 

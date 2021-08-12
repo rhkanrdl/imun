@@ -958,7 +958,7 @@ body {
                                     color:#fff;
 
                                     &.active {
-                                        color:#F3CD74;
+                                        color:#F4EE9C;
 
                                         &::after {
                                             content:"";
@@ -969,7 +969,7 @@ body {
                                             bottom:16px;
                                             width:100%;
                                             height:3px;
-                                            background:#F3CD74;
+                                            background:#F4EE9C;
                                         }
                                     }
                                 }
@@ -1043,6 +1043,10 @@ body {
                             @media (min-width: $screen-size-pc) {
                                 font-size:22px;
                             }
+                        }
+
+                        &.red {
+                            color:#C63259;
                         }
                     }
 
@@ -1552,7 +1556,142 @@ body {
 
                         }
 
+                        div.why {
+                            position:relative;
+                            border:1px solid #ccc;
+                            padding:20px;
+
+                            @media (min-width: $screen-size-pc) {
+                                padding:40px 40px 20px;
+        
+                            }
+
+                            h5 {
+                                margin:0 0 20px;
+                                font-weight:600;
+                                font-size:18px;
+
+                                @media (min-width: $screen-size-pc) {
+                                    position:absolute;
+                                    left:40px;
+                                    top:40px;
+                                    font-size:28px;
+
+                                    span {
+                                        display:block;
+                                    }
+            
+                                }
+                            }
+
+                            ul {
+                                list-style:none;
+                                margin:0;
+                                padding:0;
+
+                                @media (min-width: $screen-size-pc) {
+                                    position:relative;
+                                    font-size:0;
+                                    padding:0 0 0 330px;
+
+                                    &::before {
+                                        display:block;
+                                        content:"";
+                                        position:absolute;
+                                        left:280px;
+                                        top:0;
+                                        bottom:40px;
+                                        width:1px;
+                                        background:#ccc;
+                                        
+                                    }
+            
+                                }
+    
+
+                                li {
+                                    position:relative;
+                                    padding:0 0 16px 34px;
+                                    word-break:keep-all;
+
+                                    @media (min-width: $screen-size-pc) {
+                                        padding:0 0 40px 72px;
+                                        display:inline-block;
+                                        width:50%;
+                
+                                    }
+
+                                    i {
+                                        position:absolute;
+                                        display:block;
+                                        width:24px;
+                                        line-height:24px;
+                                        left:0;
+                                        top:0;
+                                        font-style:normal;
+                                        background:#C63259;
+                                        text-align:center;
+                                        color:#fff;
+                                        border-radius:6px;
+                                        font-weight:600;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            font-size:28px;
+                                            width:56px;
+                                            line-height:56px;
+                    
+                                        }
+                                    }
+
+                                    strong {
+                                        font-weight:600;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            font-size:24px;
+
+                                            span {
+                                                display:block;
+                                            }
+                    
+                                        }
+                                    }
+
+                                    p {
+                                        margin:6px 0 0;
+
+                                        @media (min-width: $screen-size-pc) {
+                                            font-size:16px;
+                                            margin:20px 0 0;
+
+                                            span {
+                                                display:block;
+                                            }
+                    
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
                     }
+
+                    article.ready {
+                        border:1px solid #ccc;
+                        background:#F6F6F6;
+                        text-align:center;
+                        padding:100px 0;
+                        font-weight:600;
+                        font-size:22px;
+        
+                        @media (min-width: $screen-size-pc) {
+
+                            padding:160px 0;
+                            font-size:28px;
+
+                        }
+                    }
+
+
 
 
 
