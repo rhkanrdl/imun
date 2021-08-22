@@ -2406,6 +2406,238 @@ body div#content.sub section.sub-content div.container div.btn-area a {
   }
 }
 
+body div#content.sub section.sub-content div.container article.login fieldset {
+  border: none;
+  margin: 0;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.login fieldset {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.login fieldset input {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  height: 46px;
+  padding: 0 10px;
+  margin: 0 0 10px;
+}
+
+body div#content.sub section.sub-content div.container article.login fieldset div.sign button,
+body div#content.sub section.sub-content div.container article.login fieldset div.sign a {
+  display: block;
+  width: 100%;
+  line-height: 46px;
+  border: none;
+  background: #555;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+body div#content.sub section.sub-content div.container article.login fieldset div.sign button {
+  background: #148CB9;
+}
+
+body div#content.sub section.sub-content div.container article.login fieldset ul.tools {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+body div#content.sub section.sub-content div.container article.login fieldset ul.tools li a {
+  color: #148CB9;
+  text-decoration: underline;
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset {
+  border: none;
+  margin: 0;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.sign fieldset {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset dl dt {
+  margin: 0 0 10px;
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset dl dt i {
+  font-style: normal;
+  color: #C63259;
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset dl dd {
+  margin: 0 0 20px;
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset dl dd input {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  height: 46px;
+  padding: 0 10px;
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset dl dd input.with-button {
+  width: calc(100% - 120px);
+  border-right: none;
+}
+
+body div#content.sub section.sub-content div.container article.sign fieldset dl dd button.check-id {
+  width: 120px;
+  height: 46px;
+  border: none;
+  vertical-align: top;
+  font-size: 14px;
+  background: #555;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset {
+  border: none;
+  margin: 0;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.find fieldset {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-type {
+  background: #ccc;
+  padding: 2px;
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-type input {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-type label {
+  display: inline-block;
+  line-height: 48px;
+  vertical-align: top;
+  font-size: 14px;
+  text-align: center;
+  background: #fff;
+  width: 50%;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-type input:checked + label {
+  background: #148CB9;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset dl dt {
+  margin: 0 0 10px;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset dl dt i {
+  font-style: normal;
+  color: #C63259;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset dl dd {
+  margin: 0 0 20px;
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset dl dd input {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  height: 46px;
+  padding: 0 10px;
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset dl dd input.with-button {
+  width: calc(100% - 120px);
+  border-right: none;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset dl dd button.check {
+  width: 120px;
+  height: 46px;
+  border: none;
+  vertical-align: top;
+  font-size: 14px;
+  background: #555;
+  color: #fff;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form {
+  display: none;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form.on {
+  display: block;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form dl dt {
+  margin: 0 0 10px;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form dl dt i {
+  font-style: normal;
+  color: #C63259;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form dl dd {
+  margin: 0 0 20px;
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form dl dd input {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  height: 46px;
+  padding: 0 10px;
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form dl dd input.with-button {
+  width: calc(100% - 120px);
+  border-right: none;
+}
+
+body div#content.sub section.sub-content div.container article.find fieldset div.find-form dl dd button.check {
+  width: 120px;
+  height: 46px;
+  border: none;
+  vertical-align: top;
+  font-size: 14px;
+  background: #555;
+  color: #fff;
+}
+
 body div#content.sub section.sub-content div.container article.intro div.img {
   border: 1px solid #ccc;
   background: #F6F6F6;
@@ -3354,7 +3586,7 @@ body div#content.sub section.sub-content div.container article.board-write-head 
   margin: 0 0 20px;
 }
 
-body div#content.sub section.sub-content div.container article.board-write-head input[type="text"] {
+body div#content.sub section.sub-content div.container article.board-write-head input[type=text] {
   width: 100%;
   border: 1px solid #ccc;
   background: #f4f4f4;

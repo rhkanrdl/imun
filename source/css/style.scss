@@ -1079,6 +1079,267 @@ body {
                         }
                     }
 
+                    article.login {
+
+                        fieldset {
+                            border:none;
+                            margin:0;
+                            padding:20px;
+                            @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+
+
+                            @media (min-width: $screen-size-pc) {
+                                max-width:600px;
+                                margin:0 auto;
+        
+                            }
+
+                            input {
+
+                                width:100%;
+                                border:1px solid #ccc;
+                                background:#f4f4f4;
+                                height:46px;
+                                padding:0 10px;
+                                margin:0 0 10px;
+                            }
+
+                            div.sign {
+                                button,
+                                a {
+                                    display:block;
+                                    width:100%;
+                                    line-height:46px;
+                                    border:none;
+                                    background:#555;
+                                    color:#fff;
+                                    text-align:center;
+                                    margin:0 0 10px;
+                                }
+
+                                button {
+                                    background:#148CB9;
+                                }
+                            }
+
+                            ul.tools {
+                                list-style:none;
+                                margin:0;
+                                padding:20px 0;
+                                text-align:center;
+
+                                li {
+                                    a {
+                                        color:#148CB9;
+                                        text-decoration:underline;
+
+                                    }
+                                }
+                            }
+                            
+
+
+                        }
+                    }
+
+                    article.sign {
+                        
+                        fieldset {
+
+                            border:none;
+                            margin:0;
+                            padding:20px;
+                            @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+
+
+                            @media (min-width: $screen-size-pc) {
+                                max-width:600px;
+                                margin:0 auto;
+        
+                            }
+
+                            dl {
+                                dt {
+                                    margin:0 0 10px;
+
+                                    i {
+                                        font-style:normal;
+                                        color:#C63259;
+                                    }
+                                }
+
+                                dd {
+
+                                    margin:0 0 20px;
+                                    font-size:0;
+
+                                    input {
+
+                                        width:100%;
+                                        border:1px solid #ccc;
+                                        background:#f4f4f4;
+                                        height:46px;
+                                        padding:0 10px;
+                                        margin:0 0 10px;
+                                        font-size:14px;
+
+                                        &.with-button {
+                                            width:calc(100% - 120px);
+                                            border-right:none;
+                                        }
+                                    }
+
+                                    button.check-id {
+                                        width:120px;
+                                        height:46px;
+                                        border:none;
+                                        vertical-align:top;
+                                        font-size:14px;
+                                        background:#555;
+                                        color:#fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    article.find {
+                        
+                        fieldset {
+
+                            border:none;
+                            margin:0;
+                            padding:20px;
+                            @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+
+
+                            @media (min-width: $screen-size-pc) {
+                                max-width:600px;
+                                margin:0 auto;
+        
+                            }
+
+                            div.find-type {
+                                background:#ccc;
+                                padding:2px;
+                                font-size:0;
+
+                                input {
+                                    display:none;
+                                }
+
+                                label {
+                                    display:inline-block;
+                                    line-height:48px;
+                                    vertical-align:top;
+                                    font-size:14px;
+                                    text-align:center;
+                                    background:#fff;
+                                    width:50%;
+                                }
+
+                                input:checked + label {
+                                    background:#148CB9;
+                                    color:#fff;
+                                }
+                            }
+
+                            dl {
+                                dt {
+                                    margin:0 0 10px;
+
+                                    i {
+                                        font-style:normal;
+                                        color:#C63259;
+                                    }
+                                }
+
+                                dd {
+
+                                    margin:0 0 20px;
+                                    font-size:0;
+
+                                    input {
+
+                                        width:100%;
+                                        border:1px solid #ccc;
+                                        background:#f4f4f4;
+                                        height:46px;
+                                        padding:0 10px;
+                                        margin:0 0 10px;
+                                        font-size:14px;
+
+                                        &.with-button {
+                                            width:calc(100% - 120px);
+                                            border-right:none;
+                                        }
+                                    }
+
+                                    button.check {
+                                        width:120px;
+                                        height:46px;
+                                        border:none;
+                                        vertical-align:top;
+                                        font-size:14px;
+                                        background:#555;
+                                        color:#fff;
+                                    }
+                                }
+                            }
+
+                            div.find-form {
+                                display:none;
+
+                                &.on {
+                                    display:block;
+                                }
+
+                                dl {
+                                    dt {
+                                        margin:0 0 10px;
+    
+                                        i {
+                                            font-style:normal;
+                                            color:#C63259;
+                                        }
+                                    }
+    
+                                    dd {
+    
+                                        margin:0 0 20px;
+                                        font-size:0;
+    
+                                        input {
+    
+                                            width:100%;
+                                            border:1px solid #ccc;
+                                            background:#f4f4f4;
+                                            height:46px;
+                                            padding:0 10px;
+                                            margin:0 0 10px;
+                                            font-size:14px;
+    
+                                            &.with-button {
+                                                width:calc(100% - 120px);
+                                                border-right:none;
+                                            }
+                                        }
+    
+                                        button.check {
+                                            width:120px;
+                                            height:46px;
+                                            border:none;
+                                            vertical-align:top;
+                                            font-size:14px;
+                                            background:#555;
+                                            color:#fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     article.intro {
                         
                         div.img {
@@ -2077,7 +2338,7 @@ body {
                 article.board-write-head {
                     margin:0 0 20px;
     
-                    input[type="text"] {
+                    input[type=text] {
                         width:100%;
                         border:1px solid #ccc;
                         background:#f4f4f4;
@@ -2244,7 +2505,6 @@ body {
 
 
     }
-
 
 
 

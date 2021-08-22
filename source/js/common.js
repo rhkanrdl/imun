@@ -75,6 +75,18 @@ $(function () {
         });
 
     
+        $("div.find-form").last().hide();
+
+        var radioContent = $("div.find-form");
+    
+    
+        $("div.find-type input[type='radio']").click(function() {
+    
+            radioContent.hide();
+            radioContent.eq($("input[type='radio']").index(this)).show();
+    
+    
+        });
 
 
 
