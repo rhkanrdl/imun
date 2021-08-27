@@ -126,102 +126,159 @@
         <div id="content" class="sub">
 
 
-            <section class="sub-head sub02">
+            <section class="sub-head sub03">
                 <div class="container">
 
                     <h3>
-                        사업영역
+                        마이페이지
                     </h3>
 
                     <ul class="sub-nav">
                         <li>
-                            <a href="">키오스크 무상설치</a>
+                            <a href="">설치 신청</a>
                         </li>
                         <li>
-                            <a href="">키오스크 광고</a>
+                            <a class="active" href="">광고 신청</a>
                         </li>
                         <li>
-                            <a href="">키오스크 공급</a>
+                            <a href="">광고 수정</a>
                         </li>
                         <li>
-                            <a href="">프로그램 제작</a>
+                            <a href="">상담센터</a>
                         </li>
                     </ul>
 
                     <div class="navi">
                         <span>HOME</span>
                         <i class='bx bx-chevron-right'></i>
-                        <span>사업영역</span>
+                        <span>마이페이지</span>
                         <i class='bx bx-chevron-right'></i>
-                        <strong>키오스크 광고</strong>
+                        <strong>광고신청</strong>
                     </div>
                 </div>
             </section>
 
             <section class="sub-content">
                 <div class="container">
-                    <h3 class="stitle">키오스크 광고</h3>
+                    <h3 class="stitle">광고신청</h3>
+
+
 
                     <h4 class="btitle">
-                        <small>저렴한 광고료로 키오스크내 돌출광고 및 정보 제공</small>
-                        본 광고 / 상단 배너 / 전자리플렛 / 기타
+                        신청내용을 작성해 주세요
+                        
+                        <small>담당자 확인 후 회신 드리겠습니다.</small>
                     </h4>
 
-                    <article class="ad">
-
-                        <div class="img">
-                            <img src="source/images/img-screen.png">
-                        </div>
+                    <article class="request">
 
                         <dl>
-                            <dt>배너형 광고</dt>
+                            <dt>
+                                신청인
+                            </dt>
                             <dd>
-                                <strong>배너 광고</strong>
-
-                                <p>상단 배너형 : 클릭 시 상세 광고로 이동 상시노출형 광고, 총 3가지 이미지 광고기능</p>
-                                <p>배너 크기 : 1050 x 240 Pixel → 1050 x 1404 Pixel / 전체화면</p>
-                                <p>별도상담</p>
+                                <input type="text" placeholder="상호">
+                                <input type="text" placeholder="담당자(대표)">
+                                <input type="tel" placeholder="휴대폰">
+                                <input type="email" placeholder="이메일">
                             </dd>
-
-                            <dt>스퀘어형 광고</dt>
+                            <dt>
+                                광고상품
+                            </dt>
                             <dd>
-                                <strong>스퀘어 광고</strong>
 
-                                <p>하단 스퀘어형 : 클릭시 상세광고 이미지</p>
-                                <p>배너 크기 : 250Pixel x 375Pixel → 1050 x 6000 Pixel → 1050 x 1404 Pixel / 전체화면</p>
-                                <p>상시 노출형 / 일반형, 고급형, VIP형 판매상품</p>
+                                <p class="check">
+                                    <input id="check01" type="checkbox">
+                                    <label for="check01">일반형 : 1개소 송출 / 1년 광고료  55만원.</label>
+                                </p>
+                                <p class="check">
+                                    <input id="check02" type="checkbox">
+                                    <label for="check02">고급형 : 3개소 송출 / 1년 광고료 110만원.</label>
+                                </p>
+                                <p class="check">
+                                    <input id="check03" type="checkbox">
+                                    <label for="check03">VIP형  : 5개소 송출 / 1년 광고료 165만원.</label>
+                                </p>
+                                <p class="check">
+                                    <input id="check04" type="checkbox">
+                                    <label for="check04">기타   : 별도상담, 신청시 담당자 연락.</label>
+                                </p>
+
+
+                                <span class="info">
+                                    제출하신 자료의 법적책임은 제출자에게 있습니다.
+                                </span>
 
 
                             </dd>
-
-                            <dt>중간광고형</dt>
+                            <dt>
+                                광고기간
+                            </dt>
                             <dd>
-                                <strong>중간 광고</strong>
+                                
+                                <input type="date" placeholder="시작">
+                                <span class="insert">
+                                    ~
+                                </span>
+                                <input type="date" placeholder="종료">
+                                
+                                <span class="insert blue">
+                                    1년 6개월
+                                </span>
 
-                                <p>중간 스퀘어형 : 평시 기본광고 / 각 광고 클릭시 상세광고</p>
-                                <p>배너 크기 : 1050 x 600 Pixel</p>
-                                <p>평시 설치처 이미지 제공(무상)</p>
 
-                                <strong>상세 광고</strong>
+                            </dd>
+                            <dt>
+                                광고내용
+                            </dt>
+                            <dd>
+                                <textarea placeholder="내용을 입력하세요"></textarea>
 
-                                <p>전체 화면 스퀘어형 : 중간광고 노출 후 클릭시 최종 제공 전면광고</p>
-                                <p>배너 크기 : 1050 x 1404 Pixel / 전체화면</p>
+                                <span class="info">
+                                    광고 희망문구, 할인율, 기타등등
+                                </span>
+                            </dd>
+                            <dt>
+                                자료제출
+                            </dt>
+                            <dd>
+                                <p class="file"><label for="file02">광고용 사진 1</label><input id="file02" type="file"></p>
+                                <p class="file"><label for="file03">광고용 사진 2</label><input id="file03" type="file"></p>
+                                <p class="file"><label for="file04">광고용 사진 3</label><input id="file04" type="file"></p>
 
+                                <span class="info">
+                                    제출하신 자료의 법적책임은 제출자에게 있습니다.
+                                </span>
+                            </dd>
+                            <dt>
+                                광고비결재
+                            </dt>
+                            <dd>
+                                <input type="text" placeholder="입금자명">
+                                <span class="info">
+                                    신청 후 입금안내 별도로 통보 드립니다.
+                                </span>
+                            </dd>
+                            <dt>
+                                동의사항
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li>정보제공에 동의합니다.
+                                    <li>각 항목의 *.사항에 동의합니다.
+                                    <li>본 신청서는 대신함을 동의합니다.</li>
+                                </ul>
 
+                                <span class="check">
+                                    <input id="agree" type="checkbox">
+                                    <label for="agree">상기사항에 동의합니다.</label>
+                                </span>
                             </dd>
                         </dl>
 
-                        <p class="attention">
-                            ※ 기기의 사양에 따라 배너의 크기는 변경될 수 있습니다.
-                        </p>
 
                         <div class="btn-area">
-                            <a href="">광고 신청하기</a>
-
-                            <div class="attention">
-                                <p>회원가입 후 신청가능하며, 정보 보호 및 수정이 가능합니다.</p>
-                                <p>신청시 자료(사업자등록증/ 사진3매)가 필요합니다.</p>
-                            </div>
+                            <a href="">신청하기</a>
                         </div>
 
 

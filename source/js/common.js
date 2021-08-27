@@ -54,10 +54,18 @@ $(function () {
     });
 
 
+    $('.gallery-list ul.list li p.image').each(function() {
+        $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat center / cover");
+    });
+
 
     $("nav#main-menu h3 a").on("mouseenter", function(){
         $("nav#main-menu h3").removeClass("on");
         $(this).parent().addClass("on");
+    });
+
+    $("article.login div.consulting>button").on("click", function(){
+        $(this).toggleClass("on");
     });
 
     $("nav#main-menu ul.list li ul").on("mouseleave", function(){
