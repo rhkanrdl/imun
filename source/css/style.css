@@ -2409,7 +2409,8 @@ body div#content.sub section.sub-content div.container div.btn-area a {
   font-size: 20px;
   font-weight: 600;
   padding: 0 30px;
-  margin: 0 5px;
+  margin: 5px;
+  min-width: 182px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
 }
