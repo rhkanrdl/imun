@@ -1084,6 +1084,7 @@ body {
                             font-size:20px;
                             font-weight:600;
                             padding:0 30px;
+                            margin:0 5px;
                             @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
 
                             @media (min-width: $screen-size-pc) {
@@ -1091,6 +1092,10 @@ body {
                                 line-height:80px;
                                 padding:0 60px;
         
+                            }
+
+                            &.sub {
+                                background:#555;
                             }
                         }
 
@@ -2244,6 +2249,107 @@ body {
                             }
                         }
                     }
+
+                    article.request-list {
+
+                        h4 {
+                            font-size:16px;
+                            font-weight: 600;
+                            margin-bottom:10px;
+        
+                            @media (min-width: $screen-size-pc) {
+    
+                                font-size:28px;
+                                margin-bottom:20px;
+    
+                            }
+                        }
+
+                        ul {
+                            list-style:none;
+                            margin:10px 0 0;
+                            padding:0;
+                            border-top:1px solid #ccc;
+                            font-size:0;
+
+                            li {
+                                border:1px solid #ccc;
+                                border-top:none;
+
+                                a {
+                                    display:block;
+                                    position:relative;
+                                    overflow:hidden;
+                                    text-overflow:ellipsis;
+                                    white-space:nowrap;
+                                    padding:10px 10px 10px 90px;
+                                    font-size:14px;
+        
+                                    @media (min-width: $screen-size-pc) {
+                                        font-size:16px;
+                                        padding:20px 20px 20px 120px;
+            
+                                    }
+
+                                    span {
+                                        display:block;
+                                        position:absolute;
+                                        left:5px;
+                                        top:5px;
+                                        color:#fff;
+                                        padding:5px;
+                                        width:70px;
+                                        text-align:center;
+                                        border-radius:5px;
+        
+                                        @media (min-width: $screen-size-pc) {
+                                            left:15px;
+                                            top:15px;
+                                            padding:5px 10px;
+                                            width:90px;
+                
+                                        }
+                                    }
+
+                                    &.stat01 {
+
+                                        span {
+                                            background:#0066CC;
+                                        }
+                                    }
+
+                                    &.stat02 {
+
+                                        span {
+                                            background:#94B914;
+                                        }
+                                    }
+
+                                    &.stat03 {
+                                        background:#eee;
+                                        color:#999;
+
+                                        span {
+                                            background:#999;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    article.sign-result {
+
+                        h3.stitle {
+                            i {
+                                display:block;
+                                font-size:120px;
+                                margin-bottom:20px;
+                            }
+                        }
+                    }
+
 
 
 

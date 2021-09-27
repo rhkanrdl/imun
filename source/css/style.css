@@ -2409,6 +2409,7 @@ body div#content.sub section.sub-content div.container div.btn-area a {
   font-size: 20px;
   font-weight: 600;
   padding: 0 30px;
+  margin: 0 5px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
 }
@@ -2419,6 +2420,10 @@ body div#content.sub section.sub-content div.container div.btn-area a {
     line-height: 80px;
     padding: 0 60px;
   }
+}
+
+body div#content.sub section.sub-content div.container div.btn-area a.sub {
+  background: #555;
 }
 
 body div#content.sub section.sub-content div.container div.btn-area div.attention {
@@ -3525,6 +3530,93 @@ body div#content.sub section.sub-content div.container article.request dl dd spa
   line-height: 16px;
   vertical-align: top;
   font-weight: 600;
+}
+
+body div#content.sub section.sub-content div.container article.request-list h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.request-list h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  font-size: 0;
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 10px 10px 90px;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.request-list ul li a {
+    font-size: 16px;
+    padding: 20px 20px 20px 120px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li a span {
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  color: #fff;
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container article.request-list ul li a span {
+    left: 15px;
+    top: 15px;
+    padding: 5px 10px;
+    width: 90px;
+  }
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li a.stat01 span {
+  background: #0066CC;
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li a.stat02 span {
+  background: #94B914;
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li a.stat03 {
+  background: #eee;
+  color: #999;
+}
+
+body div#content.sub section.sub-content div.container article.request-list ul li a.stat03 span {
+  background: #999;
+}
+
+body div#content.sub section.sub-content div.container article.sign-result h3.stitle i {
+  display: block;
+  font-size: 120px;
+  margin-bottom: 20px;
 }
 
 body div#content.sub section.sub-content div.container article.board-tools {
