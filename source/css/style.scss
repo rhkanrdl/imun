@@ -1066,6 +1066,97 @@ body {
                         }
                     }
 
+                    div.request-form {
+                        display:none;
+                        border:1px solid #ccc;
+                        text-align:center;
+                        padding:20px;
+                        margin-top:-30px;
+                        @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+
+                        &.on {
+                            display:block;
+                        }
+
+                        @media (min-width: $screen-size-pc) {
+                            margin:-60px auto 0;
+                            width:700px;
+                            padding:40px;
+                        }
+
+                        h5 {
+                            font-size:16px;
+                            margin:0 0 20px;
+
+                            @media (min-width: $screen-size-pc) {
+                                font-size:22px;
+                            }
+
+                            span {
+                                display:block;
+
+                                @media (min-width: $screen-size-pc) {
+                                    display:inline;
+                                }
+                            }
+                        }
+
+                        fieldset {
+                            border:none;
+                            margin:0;
+                            padding:0;
+
+                            input {
+                                border:1px solid #ccc;
+                                width:100%;
+                                padding:0 10px;
+                                height:42px;
+                                margin-bottom:10px;
+                                background:#f4f4f4;
+
+                                @media (min-width: $screen-size-pc) {
+                                    height:50px;
+                                }
+                            }
+
+                            textarea {
+                                border:1px solid #ccc;
+                                width:100%;
+                                padding:10px;
+                                height:120px;
+                                margin-bottom:10px;
+                                background:#f4f4f4;
+
+                                @media (min-width: $screen-size-pc) {
+                                    height:180px;
+                                }
+                            }
+
+                            button {
+                                    
+                                display:inline-block;
+                                background:#555;
+                                color:#fff;
+                                line-height:40px;
+                                font-size:18px;
+                                font-weight:600;
+                                padding:0 30px;
+                                margin:5px;
+                                min-width:182px;
+                                width:100%;
+                                border:none;
+                                @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.25);
+
+                                @media (min-width: $screen-size-pc) {
+                                    font-size:22px;
+                                    line-height:60px;
+                                    padding:0 60px;
+            
+                                }
+                            }
+                        }
+                    }
+
                     div.btn-area {
                         clear:both;
                         padding:20px 0 40px;
@@ -1076,9 +1167,11 @@ body {
     
                         }
 
-                        a {
+                        a,
+                        button {
                             display:inline-block;
                             background:#C63259;
+                            border:none;
                             color:#fff;
                             line-height:50px;
                             font-size:20px;

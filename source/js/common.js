@@ -97,6 +97,10 @@ $(function () {
         });
 
 
+        $(".toggleBtn").on("click", function(){
+            $("div.toggleDiv").toggleClass("on");
+        });
+
 
 
 });

@@ -2389,6 +2389,109 @@ body div#content.sub section.sub-content div.container h4.btitle.red {
   color: #C63259;
 }
 
+body div#content.sub section.sub-content div.container div.request-form {
+  display: none;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: -30px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+body div#content.sub section.sub-content div.container div.request-form.on {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.request-form {
+    margin: -60px auto 0;
+    width: 700px;
+    padding: 40px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.request-form h5 {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.request-form h5 {
+    font-size: 22px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.request-form h5 span {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.request-form h5 span {
+    display: inline;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.request-form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body div#content.sub section.sub-content div.container div.request-form fieldset input {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 0 10px;
+  height: 42px;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.request-form fieldset input {
+    height: 50px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.request-form fieldset textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  height: 120px;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.request-form fieldset textarea {
+    height: 180px;
+  }
+}
+
+body div#content.sub section.sub-content div.container div.request-form fieldset button {
+  display: inline-block;
+  background: #555;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 30px;
+  margin: 5px;
+  min-width: 182px;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.request-form fieldset button {
+    font-size: 22px;
+    line-height: 60px;
+    padding: 0 60px;
+  }
+}
+
 body div#content.sub section.sub-content div.container div.btn-area {
   clear: both;
   padding: 20px 0 40px;
@@ -2401,9 +2504,11 @@ body div#content.sub section.sub-content div.container div.btn-area {
   }
 }
 
-body div#content.sub section.sub-content div.container div.btn-area a {
+body div#content.sub section.sub-content div.container div.btn-area a,
+body div#content.sub section.sub-content div.container div.btn-area button {
   display: inline-block;
   background: #C63259;
+  border: none;
   color: #fff;
   line-height: 50px;
   font-size: 20px;
@@ -2416,14 +2521,16 @@ body div#content.sub section.sub-content div.container div.btn-area a {
 }
 
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.btn-area a {
+  body div#content.sub section.sub-content div.container div.btn-area a,
+  body div#content.sub section.sub-content div.container div.btn-area button {
     font-size: 26px;
     line-height: 80px;
     padding: 0 60px;
   }
 }
 
-body div#content.sub section.sub-content div.container div.btn-area a.sub {
+body div#content.sub section.sub-content div.container div.btn-area a.sub,
+body div#content.sub section.sub-content div.container div.btn-area button.sub {
   background: #555;
 }
 
